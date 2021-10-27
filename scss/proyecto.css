@@ -165,7 +165,7 @@ p {
 .welcome .welcome__readingImage {
   -webkit-filter: blur(1px);
           filter: blur(1px);
-  background-image: url("/img/home/readingImage.jpg");
+  background-image: url("../img/home/readingImage.jpg");
   background-size: cover;
   background-position: center center;
   height: 700px;
@@ -218,7 +218,11 @@ p {
   margin: auto;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "title title title" "text1 text2 text3" "text1 text2 text3" "text1 text2 text3" "more  more  more";
+      grid-template-areas: "title title title"
+ "text1 text2 text3"
+ "text1 text2 text3"
+ "text1 text2 text3"
+ "more  more  more";
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 4fr;
@@ -254,7 +258,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("/img/home/flower.jpeg");
+  background-image: url("../img/home/flower.jpeg");
   background-size: cover;
   background-position: center;
 }
@@ -277,7 +281,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("/img/home/Seaside.jpeg");
+  background-image: url("../img/home/Seaside.jpeg");
   background-size: cover;
   background-position: center;
 }
@@ -300,7 +304,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("/img/home/Skull.jpeg");
+  background-image: url("../img/home/Skull.jpeg");
   background-size: cover;
   background-position: center;
 }
