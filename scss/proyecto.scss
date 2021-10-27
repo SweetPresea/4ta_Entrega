@@ -127,7 +127,7 @@ p {
     margin-bottom: 50px;
         .welcome__readingImage {
             filter: blur(1px);
-            background-image: url('/img/home/readingImage.jpg');
+            background-image: url('../img/home/readingImage.jpg');
             background-size: cover;
             background-position: center center;
             height: 700px;
@@ -198,7 +198,7 @@ p {
         padding: 10px;
     }
     .readingSection__works1 {
-        @include myworks(text1, url('/img/home/flower.jpeg') )
+        @include myworks(text1, url('../img/home/flower.jpeg') )
         }
 
         .readingSection__works1 .readingSection__works1--div{
@@ -209,7 +209,7 @@ p {
         }
 
     .readingSection__works2 {
-            @include myworks (text2, url('/img/home/Seaside.jpeg'))}
+            @include myworks (text2, url('../img/home/Seaside.jpeg'))}
             
             .readingSection__works2 .readingSection__works2--div{
                 @extend .myworks_section;
@@ -218,7 +218,7 @@ p {
                 @extend .button;}
 
      .readingSection__works3 {
-                @include myworks (text3,url('/img/home/Skull.jpeg'))}
+                @include myworks (text3,url('../img/home/Skull.jpeg'))}
 
                 .readingSection__works3 .readingSection__works3--div{
                     @extend .myworks_section;
